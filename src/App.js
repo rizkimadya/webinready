@@ -12,6 +12,10 @@ import Sejarah from "./Pages/Profile/Sejarah";
 import Berita from "./Pages/Berita/Berita";
 import DetailBerita from "./Pages/Berita/DetailBerita";
 import DetailKegiatan from "./Pages/Kegiatan/DetailKegiatan";
+import Login from "./Pages/Login/login";
+import Anggota from "./Pages/Anggota/Anggota";
+import Karya from "./Pages/Karya/Karya";
+import Struktur from "./Pages/StrukturOrganisasi/Struktur";
 
 function App() {
 	return (
@@ -27,7 +31,11 @@ function App() {
 			{/* <Sejarah /> */}
 			{/* <Berita /> */}
 			{/* <DetailBerita /> */}
-			<DetailKegiatan/>
+			{/* <DetailKegiatan/> */}
+			{/* <Login /> */}
+			{/* <Anggota /> */}
+			{/* <Karya /> */}
+			<Struktur />
 			<Footer />
 		</div>
 	);
